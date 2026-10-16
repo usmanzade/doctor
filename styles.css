@@ -49,6 +49,7 @@
 }
 
 html {
+  -webkit-tap-highlight-color: transparent;
   scroll-behavior: smooth;
   background: var(--background);
   scroll-padding-top: 70px;
@@ -1676,4 +1677,11 @@ footer a:hover {
     font-size: 0.85rem;
     padding-left: 1em;
   }
+}
+
+#mobile-dock a {
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
 }
